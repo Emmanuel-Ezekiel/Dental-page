@@ -1,0 +1,116 @@
+header {
+  height: 100px;
+  background-color: transparent;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.125rem 7.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    cursor: pointer;
+
+    .menu {
+      display: flex;
+
+      button {
+        width: 65px;
+        height: 30px;
+        border-radius: 100px;
+        border: 1px solid;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .hambuger {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding-right: 5px;
+        cursor: pointer;
+
+        .line {
+          width: 14px;
+          height: 3px;
+          border-bottom: 1px solid;
+        }
+
+        .line2 {
+          width: 18px;
+          height: 3px;
+          border-bottom: 1px solid;
+        }
+      }
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 3px;
+        font-size: 20px;
+        background: #f86103;
+      }
+
+      h2 {
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    .btn {
+      display: flex;
+
+      button {
+        width: 65px;
+        height: 30px;
+        border-radius: 100px;
+        border: 1px solid;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .signUp {
+        width: 80px;
+        height: 30px;
+        border-radius: 100px;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f86103;
+        color: #ffffff;
+        cursor: pointer;
+      }
+    }
+  }
+}
